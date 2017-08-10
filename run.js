@@ -10,11 +10,11 @@ console.log(connectionString);
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-  host: 'dwingmysql.mysql.database.azure.com',
-  user: 'myadmin@dwingmysql',
-  password: 'Azurepdu1979',
-  database: 'testdb',
-  port: 3306,
+  host: process.env.mysqlhost,
+  user: process.env.mysqlusr,
+  password: process.env.mysqlpwd,
+  database: process.env.mysqldb,
+  port: process.env.mysqlport,
   ssl: true
 });
 
