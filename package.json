@@ -1,0 +1,16 @@
+{
+  "name": "nodejob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "dependencies": {
+    "azure-event-hubs":"latest",
+    "mysql2":"latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rade Zheng",
+  "license": "ISC"
+}
